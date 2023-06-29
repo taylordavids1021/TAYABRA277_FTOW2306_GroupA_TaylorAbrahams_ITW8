@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume 7-2</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <!-- Casscading style sheet link-->
+    <link href="CSS/style.css" rel="stylesheet">
+    <!--GOOGLE FONT LINK-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="hero-banner">
+        <header>
+            <!--IMG LINK--> 
+            <picture>
+                <source srcset="./img/Taylor.1.jpg" media="(min-width: 900px)">
+                <source srcset="./img/Taylor.2.jpg" media="(min-width: 600px)">
+                <img class="mypic" src="./img/Taylor.1.jpg">
+            </picture>
+            <h1>Taylor Abrahams</h1>
+            <p>I am passionate to learn and to help others. The benefits of my skills set will bring and uplift mental health, business, and motivational consistency into the team.</p>
+            <div class="myinfo">
+                <p>Phone number : +27 69 548 7340</p>
+                <p>Email : Taylordavids997@gmail.com</p>
+                <p>15A Heideveld Road, Welcome estate 7764</p>
+            </div>
+        </header>
+    </div>
+    <aside>
+        <!--NAVIGATION LIST-->
+        <ul>
+            <li>
+                <a href="#edu">Education</a>
+            </li>
+            <li>
+                <a href="#exp">Experience</a>
+            </li>
+            <li>
+                <a href="#skill">Skills</a>
+            </li>
+        </ul>
+    </aside>
+    <section class="section">
+        <h2 id="edu">Education</h2>
+        <h3>Intro to Web at <a href="https://www.codespace.co.za/programs/software-development/?matchtype=p&device=c&keyword=codespace&adgroupid=78286133238&utm_campaign=6451583985&utm_source=google&utm_medium=cpc&gclid=Cj0KCQjwnMWkBhDLARIsAHBOftrlG6gRB0n-rVhuRKyXNHLNmjKa8FcSlnCiOErHAx4bU-rzG8uyH7UaAhRPEALw_wcB">CodeSpace Academy</a></h3>
+            <p>All learning happens on our world-class online learning portal, which guides students through videos, code snippets, code walkthroughs, challenges, and projects. Each completed project forms part of their ever-growing code portfolios. Every CodeSpace student has access to a personal code coach who will support them through our challenging coursework. They interact with their coaches in live, interactive coaching sessions, which happen online or at a CodeSpace campus.</p>
+            <p>At CodeSpace, it's not only what we teach but HOW we teach that prepares our students to enter the tech industry seamlessly. Our online teaching format simulates an online work environment, while our co-learning space emulates a tech startup and teaches students how to work alongside their future colleagues.</p>
+    </section>
+    <div class="quali">
+        <h2>Qualification</h2>
+        <h3>Web developer</h3>
+            <p>A web developer is a programmer who develops World Wide Web applications using a client–server model. The applications typically use HTML, CSS, and JavaScript in the client, and any general-purpose programming language in the server. HTTP is used for communications between client and server</p>
+    </div>
+    <article>
+        <h2 id="exp">Experience</h2>
+        <i><h3>Intern Masterparts</h3></i>
+            <ul>
+                <li>Build Raspberry pie</li>
+                <li>Javascript plugins</li>
+                <li>Building graphs with Apex</li>
+                <li>Use Bootstrap to make website responsive</li>
+            </ul>
+        <i><h3>Technology Intern</h3></i>
+            <ul>
+                <li>Work on Kentico CMS 11</li>
+                <li>Worked with CSS, JS, and content management</li>
+                <li>Experimented with SQL for development via its Portal Engine</li>
+                <li>Created my own registration and login application, integrated with Mongo DB and existing internal API's to make this a functional application.I worked within a QA environment</li>
+            </ul>
+    </article>
+    <div class="skills">
+        <h2 id="skill">Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JAVASCRIPT</li>
+            <li>VUE.JS</li>
+        </ul>
+    </div>
+    <footer>
+        <div class="social-media">
+            <h2>Social Media Platforms</h2>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/taylor-davids-741255132/">LinkedIn</a></li>
+                <li><a href="https://github.com/taylordavids1021">Github</a></li>
+            </ul>
+        </div>
+        <div class="contact-me">
+            <h2>Contact me</h2>
+            <form form action="https://formsubmit.co/taylordavids997@gmail.com" method="POST">
+                <div class="form-example">
+                    <label><b>Lets chat about coding</b></label><br>
+                    <label for="lets-chat" aria-required="">What are you fimiliar with:</label>
+                    <input type="checkbox" value="" required><label>HTML</label>
+                    <input type="checkbox" value="" required><label>CSS</label>
+                    <input type="checkbox" value="" required><label>JAVASCRIPT</label>
+                </div>
+                <div class="email">
+                    <label for="email"><b>Email:</b></label>
+                    <input class="email" type="email" name="email" id="email" required>
+                  </div>
+                <div class="topic">
+                    <label for="tell-me-more"><b>Tell me more:</b></label>
+                    <textarea class="tell-me-more" id="tell-me-more" name="tell-me-more" rows="5" cols="33"></textarea>
+                </div>
+                <div class="form-example">
+                    <button class="button" type="submit" target="blank">Send!</button>
+                </div>
+            </form>
+        </div>
+    </footer>
+</body>
+</html>

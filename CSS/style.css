@@ -1,0 +1,184 @@
+/* ---------------------------------------- CSS STYLE SHEET ----------------------------------------*/
+/* ---------------------------------------- BODY ---------------------------------------- */
+html, body {
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    height: 100%;
+    /*background-color: rgb(216, 248, 255);*/
+}
+/*---------------------------------------- HEADER ----------------------------------------*/
+h1 {
+    font-size: 5rem;
+    text-align: left;
+    margin: auto;
+}
+header::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+/* The hero image */
+.hero-banner {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("/img/flower1.jpg");
+    /* Set a specific height */
+    height: 100%;
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+header {
+    color: white;
+    /*background-color: rgb(15 30 61);/*/
+    padding: 5rem;
+    margin: auto;
+}
+header p {
+    font-size: 2rem;
+    text-align: left;
+    font-weight: bold;
+    font-size: large;
+    word-spacing: 2px;
+    padding-top: 1rem;
+    margin-left: 26rem;
+    margin-right: 4rem;
+}
+.myinfo p {
+    padding-top: 0.5rem;
+    text-align: left;
+}
+.icon {
+    width: 80px;
+    height: 80px;
+}
+.mypic {
+    border-style: solid;
+    border-width: 0.3rem; 
+    border-color: white;
+    border-radius: 100%;
+    width: 25rem;
+    height: 30rem;
+    display: block;
+    margin: 0;
+    float: left;
+    /*margin-left: 4rem;*/
+}
+/* ---------------------------------------- ASIDE ----------------------------------------*/
+
+aside ul {
+    display: flex;
+    flex-wrap: nowrap;
+    /*margin-left: 15rem;*/
+}
+aside li {
+    border-style: solid;
+    border-width: 1px;
+    list-style-type: none;
+    padding: 0.5rem;
+    margin-left: 7rem;
+    margin-right: 7.3rem;
+}
+aside li:hover {
+    border-style: none;
+    background-color: rgb(55 69 109);
+}
+aside a {
+    /*padding-right: 90px;*/
+    margin: 2rem;
+    font-size: 30px;
+    text-underline-offset: none;
+    font-weight: bolder;
+}
+/*---------------------------------------- a ----------------------------------------*/
+aside a:hover{
+    color: white;
+
+}
+a {
+    color: #0f1e3d;
+}
+/* ---------------------------------------- H2 ----------------------------------------*/
+h2 {
+    text-decoration: underline;
+}
+
+/* ---------------------------------------- SECTION ----------------------------------------*/
+.section {
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    padding: 2rem;
+}
+/* ---------------------------------------- QUALIFICATION ----------------------------------------*/
+.quali {
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    padding: 2rem;
+    margin-top: 2rem; 
+}
+/*---------------------------------------- ARTICLE ----------------------------------------*/
+article {
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    padding: 2rem;
+    margin-top: 2rem; 
+}
+/* ---------------------------------------- SKILLS ---------------------------------------- */
+.skills {
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    padding: 2rem;
+    margin-top: 2rem; 
+}
+/*---------------------------------------- FOOTER ---------------------------------------- */
+.social-media, .contact-me {
+    border-style: solid;
+    border-width: 1px;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    padding: 2rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+/* ---------------------------------------- FORM STYLE ------------------------------------------------- */
+
+form {
+    font-size: 1.1rem;
+}
+textarea {
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    width: 35%;
+    padding: 0.5rem 0.75rem;
+}
+.button {
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    border: 0;
+    padding: 5px 0px;
+    line-height: 1.5;
+    width: 35%;
+    height: 40%;
+    margin-top: 10px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    border-radius: 10px;
+    background-color: rgba(0, 103, 220, 0.904);
+}
+.button:hover {
+    font-size: 1.2rem;
+}
+.topic, .email {
+    margin-top: 5px;
+}
