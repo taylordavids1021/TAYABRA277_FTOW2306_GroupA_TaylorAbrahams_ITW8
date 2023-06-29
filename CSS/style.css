@@ -280,8 +280,27 @@ textarea {
 } 
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-   
+@media only screen and (min-width: 1024px) {
+    .mypic {
+        width: 16rem;
+        height: 17rem;
+    }
+    h1 {
+        font-size: 4rem;
+        background-color: transparent;
+    }
+    header p {
+        background-color: transparent;
+        line-height: 1.8rem;
+        font-size: 1.5rem;
+    }
+    aside li {
+        margin-left: 5rem;
+        margin-right: 5rem;
+       }
+       aside a {
+        font-size: 30px;
+       }
 } 
 
 /*  ------------------------------------------ END OF RESPONSIVE ---------------------------------------- */
