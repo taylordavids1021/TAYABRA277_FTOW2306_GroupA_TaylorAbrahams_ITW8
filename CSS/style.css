@@ -241,6 +241,14 @@
     aside li {
         margin: 0 6rem;
     }
+    aside li:hover {
+        border-style: none;
+        background-color: rgb(55 69 109);
+    }
+    aside a:hover{
+        color: white;
+    
+    }
     /* aside a {
         font-size: 30px;
     }
@@ -252,6 +260,9 @@
     } */
     .button {
         width: 25%;
+    }
+    .button:hover {
+        font-size: 1.2rem;
     }
     label {
         font-size: 1.2rem;
